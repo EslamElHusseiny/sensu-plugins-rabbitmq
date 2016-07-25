@@ -15,14 +15,14 @@ Gem::Specification.new do |s|
   s.email                  = '<sensu-users@googlegroups.com>'
   s.executables            = Dir.glob('bin/**/*.rb').map { |file| File.basename(file) }
   s.files                  = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md CHANGELOG.md)
-  s.homepage               = 'https://github.com/sensu-plugins/sensu-plugins-rabbitmq'
+  s.homepage               = 'https://github.com/EslamElHusseiny/sensu-plugins-rabbitmq'
   s.license                = 'MIT'
   s.metadata               = { 'maintainer'         => '@mattyjones',
                                'development_status' => 'active',
                                'production_status'  => 'unstable - testing recommended',
                                'release_draft'      => 'false',
                                'release_prerelease' => 'false' }
-  s.name                   = 'sensu-plugins-rabbitmq'
+  s.name                   = 'sensu-plugins-rabbitmq-temp'
   s.platform               = Gem::Platform::RUBY
   s.post_install_message   = 'You can use the embedded Ruby by setting EMBEDDED_RUBY=true in /etc/default/sensu'
   s.require_paths          = ['lib']
